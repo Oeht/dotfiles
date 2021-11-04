@@ -1,0 +1,40 @@
+{
+    "env": {
+        "commonjs": true,
+        "node": true,
+        "es6": true,
+        "jest": true,
+        "jquery": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2021
+    },
+    "ignorePatterns": [
+        "node_modules/**/*.js"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "camelcase": [
+            "off"
+        ]
+    }
+}

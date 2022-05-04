@@ -1,122 +1,116 @@
 {
-   "breadcrumbs.enabled":true,
-   "editor.formatOnPaste":false,
-   "editor.formatOnType":false,
-   "csv-preview.separator":";",
-   "csv-preview.lineNumbers":"source",
-   "php.executablePath":"E:\\xampp\\php\\php.exe",
-   "php.validate.executablePath":"E:\\xampp\\php\\php.exe",
-   "vsicons.dontShowNewVersionMessage":true,
-   "typescript.format.semicolons":"remove",
-   "typescript.format.insertSpaceBeforeFunctionParenthesis":true,
-   "typescript.preferences.quoteStyle":"single",
-   "editor.defaultFormatter":"esbenp.prettier-vscode",
-   "prettier.semi":false,
-   "prettier.singleQuote":true,
-   "prettier.trailingComma":"es5",
-   "prettier.useTabs":true,
-   "prettier.resolveGlobalModules":true,
-   "typescript.updateImportsOnFileMove.enabled":"always",
-   "git.autofetch":true,
-   "workbench.iconTheme":"vscode-icons",
-   "extensions.ignoreRecommendations":false,
-   "editor.tokenColorCustomizations":{
-      "textMateRules":[
-         {
-            "scope":[
-               "comment",
-               "comment.block"
-            ],
-            "settings":{
-               "fontStyle":"italic",
-               "foreground":"#ff1493"
-            }
-         },
-         {
-            "scope":[
-               "keyword.operator.logical",
-               "keyword.operator.arithmetic",
-               "keyword.operator.assignment",
-               "keyword.operator.bitwise"
-            ],
-            "settings":{
-               "fontStyle":""
-            }
-         }
-      ]
-   },
-   "[javascript]":{
-      "editor.defaultFormatter":"HookyQR.beautify"
-   },
-   "[json]":{
-      "editor.defaultFormatter":"HookyQR.beautify"
-   },
-   "[html]":{
-      "editor.defaultFormatter":"HookyQR.beautify"
-   },
-   "[css]":{
-      "editor.defaultFormatter":"HookyQR.beautify"
-   },
-   "[vue]":{
-      "editor.defaultFormatter":"octref.vetur"
-   },
-   "[typescriptreact]":{
-      "editor.defaultFormatter":"esbenp.prettier-vscode"
-   },
-   "[typescript]":{
-      "editor.defaultFormatter":"esbenp.prettier-vscode"
-   },
-   "workbench.colorCustomizations":{
-      
-   },
-   "[scss]":{
-      "editor.defaultFormatter":"esbenp.prettier-vscode"
-   },
-   "[javascriptreact]":{
-      "editor.defaultFormatter":"esbenp.prettier-vscode"
-   },
-   "[jsonc]":{
-      "editor.defaultFormatter":"esbenp.prettier-vscode"
-   },
-   "python.pythonPath":"C:\\Program Files\\Python38\\python.exe",
-   "python.linting.pylintEnabled":false,
-   "python.linting.pylamaEnabled":true,
-   "python.linting.enabled":true,
-   "scm.alwaysShowRepositories":true,
-   "git.enableSmartCommit":true,
-   "explorer.openEditors.visible":0,
-   "editor.snippetSuggestions":"top",
-   "workbench.editor.decorations.badges":true,
-   "workbench.editor.decorations.colors":true,
-   "workbench.colorTheme":"Just Black",
-   "editor.renderControlCharacters":true,
-   "gitlens.defaultTimeFormat":null,
-   "gitlens.defaultDateFormat":null,
-   "editor.suggest.preview":true,
-   "quokka.suppressExpirationNotifications":true,
-   "eslint.alwaysShowStatus":true,
-   "security.workspace.trust.untrustedFiles":"open",
-   "eslint.format.enable":true,
-   "editor.formatOnSaveMode":"modifications",
-   "editor.formatOnSave":false,
-   "prettier.tabWidth":4,
-   "remoteHub.commitDirectlyWarning":"off",
-   "editor.inlineSuggest.enabled":true,
-   "python.defaultInterpreterPath":"C:\\Program Files\\Python38\\python.exe",
-   "smarty.highlight":true,
-   "[smarty]":{
-      "editor.defaultFormatter":"aswinkumar863.smarty-template-support"
-   },
-   "editor.bracketPairColorization.enabled":true,
-   "editor.guides.bracketPairs":true,
-   "remote.SSH.remotePlatform":{
-      "alterserver":"linux",
-      "itcrowd":"linux",
-      "raspberry":"linux",
-      "neuerserver":"linux"
-   },
-   "explorer.confirmDragAndDrop":false,
-   "editor.fontSize":13,
-   "editor.fontFamily":"'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
-   "editor.fontLigatures":true
+  "breadcrumbs.enabled": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "php.executablePath": "E:\\xampp\\php\\php.exe",
+  "php.validate.executablePath": "E:\\xampp\\php\\php.exe",
+  "vsicons.dontShowNewVersionMessage": true,
+  "typescript.format.semicolons": "remove",
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.preferences.quoteStyle": "single",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": true,
+  "prettier.resolveGlobalModules": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "workbench.iconTheme": "vscode-icons",
+  "extensions.ignoreRecommendations": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block"
+        ],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {},
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.linting.pylintEnabled": false,
+  "python.linting.pylamaEnabled": true,
+  "python.linting.enabled": true,
+  "scm.alwaysShowRepositories": true,
+  "git.enableSmartCommit": true,
+  "explorer.openEditors.visible": 0,
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.colorTheme": "Just Black",
+  "editor.renderControlCharacters": true,
+  "gitlens.defaultTimeFormat": null,
+  "gitlens.defaultDateFormat": null,
+  "editor.suggest.preview": true,
+  "quokka.suppressExpirationNotifications": true,
+  "eslint.alwaysShowStatus": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "eslint.format.enable": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": false,
+  "prettier.tabWidth": 4,
+  "editor.inlineSuggest.enabled": true,
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python38\\python.exe",
+  "smarty.highlight": true,
+  "[smarty]": {
+    "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "remote.SSH.remotePlatform": {
+    "alterserver": "linux",
+    "itcrowd": "linux",
+    "raspberry": "linux",
+    "neuerserver": "linux"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true
 }

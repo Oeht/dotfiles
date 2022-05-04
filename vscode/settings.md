@@ -1,20 +1,12 @@
-# Settings
-
-```json
 {
   "breadcrumbs.enabled": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
   "csv-preview.separator": ";",
   "csv-preview.lineNumbers": "source",
-  "php.executablePath": "W:\\xampp\\php\\php.exe",
-  "php.validate.executablePath": "W:\\xampp\\php\\php.exe",
-  "editor.formatOnSave": false,
-  "tfvc.location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\TF.exe",
-  "team.showWelcomeMessage": false,
+  "php.executablePath": "E:\\xampp\\php\\php.exe",
+  "php.validate.executablePath": "E:\\xampp\\php\\php.exe",
   "vsicons.dontShowNewVersionMessage": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   "typescript.format.semicolons": "remove",
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.preferences.quoteStyle": "single",
@@ -68,7 +60,6 @@
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -90,11 +81,40 @@
   "python.linting.pylamaEnabled": true,
   "python.linting.enabled": true,
   "scm.alwaysShowRepositories": true,
-  "workbench.colorTheme": "Just Black",
   "git.enableSmartCommit": true,
-  "team.showFarewellMessage": false,
-  "editor.renderControlCharacters": true,
   "explorer.openEditors.visible": 0,
-  "editor.snippetSuggestions": "top"
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.colorTheme": "Just Black",
+  "editor.renderControlCharacters": true,
+  "gitlens.defaultTimeFormat": null,
+  "gitlens.defaultDateFormat": null,
+  "editor.suggest.preview": true,
+  "quokka.suppressExpirationNotifications": true,
+  "eslint.alwaysShowStatus": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "eslint.format.enable": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": false,
+  "prettier.tabWidth": 4,
+  "remoteHub.commitDirectlyWarning": "off",
+  "editor.inlineSuggest.enabled": true,
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python38\\python.exe",
+  "smarty.highlight": true,
+  "[smarty]": {
+    "editor.defaultFormatter": "aswinkumar863.smarty-template-support"
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "remote.SSH.remotePlatform": {
+    "alterserver": "linux",
+    "itcrowd": "linux",
+    "raspberry": "linux",
+    "neuerserver": "linux"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'Cascadia Code', 'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true
 }
-```

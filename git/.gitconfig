@@ -22,3 +22,7 @@
 	program  = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
 [credential "helperselector"]
 	selected = store
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\Theo\\Documents\\gitignore_global.txt
+	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
